@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: lightblue;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction:row;
+}
+
+.info {
+    width: 49%;
+}
+
+div {
+    padding: 16px 10px;
+    border: 2px solid black;
+    margin-bottom: 1px;
+}
+
+label {
+    font-size: 1.6em;
+    font-weight: 800;
+    margin-right: 50px;
+}
+
+#name, #age, #height, #weight {
+    width: 220px;
+    height: 30px;
+    font-size: 1em;
+    padding: 4px;
+}
+
+div:last-of-type  {
+    border: transparent;
+    text-align: center;
+}
+
+button {
+    background-color: lightblue;
+    padding: 10px;
+    font-size: medium;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.result {
+    width: calc(100%-49%);
+}
+.result h1 {
+    text-align: center;
+}
+

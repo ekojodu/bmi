@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Body Mass Index</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<header>
+			<h1>BMI Calculator - Weight Loss</h1>
+		</header>
+
+		<main>
+			<section class="info">
+				<div>
+					<label for="name">Name </label>
+					<input
+						type="text"
+						id="name"
+						placeholder="enter your name here"
+						required
+					/>
+				</div>
+				<div>
+					<label for="age">Age </label>
+					<input
+						type="number"
+						id="age"
+						placeholder="enter your age here"
+						required
+					/>
+				</div>
+				<div>
+					<label for="gender">Gender </label>
+					<input type="radio" name="yesorno" id="gender" required /> Male &nbsp;
+					<input type="radio" name="yesorno" id="" required /> Female
+				</div>
+				<div>
+					<label for="height">Height </label>
+					<input
+						type="number"
+						id="height"
+						placeholder="enter your Height (inches)"
+						required
+					/>
+				</div>
+				<div>
+					<label for="weight">Weight </label>
+					<input
+						type="number"
+						id="weight"
+						placeholder="enter your Weight(Ib)"
+						required
+					/>
+				</div>
+
+				<div>
+					<button id="calculate">Calculate BMI</button>
+				</div>
+			</section>
+
+			<section class="result">
+				<div>
+					<h1>Result Checker</h1>
+				</div>
+
+				<h2 id="result-message"></h2>
+				<h2 id="result-percentage"></h2>
+			</section>
+		</main>
+
+		<script src="index.js"></script>
+	</body>
+</html>
